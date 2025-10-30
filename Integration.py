@@ -39,6 +39,8 @@ conn = sqlite3.connect('Student.db')
 cursor = conn.cursor()
 
 # def a create_student()
+
+
 def create_student():
     student_id = entry_id.get()
     student_name = entry_name.get().lower() # application layer
